@@ -5,5 +5,8 @@ REpresentation State Transfer is the software architecure which is use to commun
 <code>__1. Create Operation : http://127.0.0.1:5000/video/{"name": "HI my video","likes":50000,"views": 1001}__</code>
 ![Alt text](/img/create.JPG?raw=true "Create Operation")
 
-<code>__1. Create Operation : http://127.0.0.1:5000/video/1__</code>
+<code>__1. Create Operation : http://127.0.0.1:5000/video/2__</code>
 ![Alt text](/img/Retrieve.JPG?raw=true "Retrieve Operation")
+
+<code>__1. Create Operation : http://127.0.0.1:5000/video/2{"views": 3333, "likes":1613}__</code>
+![Alt text](/img/Update.JPG?raw=true "Retrieve Operation")
