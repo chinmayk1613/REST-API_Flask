@@ -18,5 +18,7 @@ input()
 response= requests.patch(BASE + "video/1", {"views": 3333, "likes":1613})
 print(response.json())
 
-response= requests.delete(BASE + "video/2")
-print(response)
+response= requests.delete(BASE + "video/12")
+if response.status_code==204:
+    print(response)
+    print("Video Deleted Successfully")
